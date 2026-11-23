@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — Guitarras Gómez del Carmen</title>
+  <meta name="description" content="Contacta con Guitarras Gómez del Carmen para encargar una guitarra a medida, pedir un presupuesto o concertar una visita al taller en Toledo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Ir al contenido principal</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.webp" alt="" width="520">
+        <span class="brand-text"><strong>Gómez del Carmen</strong><span>Luthier · Toledo</span></span>
+      </a>
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Guitarras</a>
+        <a href="construccion.html">Construcción</a>
+        <a href="guitarristas.html">Guitarristas</a>
+        <a href="servicio.html">Servicios</a>
+        <a href="agradecimientos.html">Agradecimientos</a>
+        <a href="contacto.html" aria-current="page">Contacto</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn" href="contacto.html">Hablemos</a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-mobile"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Navegación móvil">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Guitarras</a>
+    <a href="construccion.html">Construcción artesanal</a>
+    <a href="guitarristas.html">Guitarristas</a>
+    <a href="servicio.html">Barnizado y reparación</a>
+    <a href="agradecimientos.html">Agradecimientos</a>
+    <a href="contacto.html" aria-current="page">Contacto</a>
+    <a class="btn" href="https://api.whatsapp.com/send?phone=34687407964" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Migas de pan"><a href="index.html">Inicio</a><span>/</span><span>Contacto</span></nav>
+        <p class="eyebrow">Hablemos</p>
+        <h1>Empecemos a crear tu guitarra</h1>
+        <p class="lead">¿Listo para tener tu propia guitarra personalizada? Cuéntanos qué tienes en mente y te respondemos lo antes posible.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-block">
+            <h3>Teléfono y WhatsApp</h3>
+            <a class="big-link" href="tel:+34687407964">+34 687 407 964</a>
+            <p>Escríbenos por <a href="https://api.whatsapp.com/send?phone=34687407964" target="_blank" rel="noopener">WhatsApp</a> para una respuesta más rápida.</p>
+          </div>
+          <div class="contact-block">
+            <h3>Correo electrónico</h3>
+            <a class="big-link" href="mailto:macose_to@yahoo.es">macose_to@yahoo.es</a>
+          </div>
+          <div class="contact-block">
+            <h3>Taller</h3>
+            <p>Mártires 31<br>45920 La Torre de Esteban Hambrán<br>Toledo (España)</p>
+            <p><a href="https://maps.google.com/maps?q=M%C3%A1rtires%2031%2C%20La%20Torre%20de%20Esteban%20Hambran" target="_blank" rel="noopener">Ver en Google Maps ↗</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>Redes sociales</h3>
+            <div class="social-row">
+              <a href="https://instagram.com/guitarras_gomez_del_carmen" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://facebook.com/justo.arevalogomez" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://youtube.com/@GUITARRASGOMEZDELCARMEN-cl9do" target="_blank" rel="noopener">YouTube</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal--delay-1">
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="nombre">Nombre <span class="req" aria-hidden="true">*</span></label>
+                <input id="nombre" name="nombre" type="text" autocomplete="name" required placeholder="Tu nombre">
+              </div>
+              <div class="field">
+                <label for="email">Correo electrónico <span class="req" aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required placeholder="tu@email.com">
+              </div>
+              <div class="field field--full">
+                <label for="asunto">Asunto</label>
+                <input id="asunto" name="asunto" type="text" placeholder="Encargo a medida, reparación, visita…">
+              </div>
+              <div class="field field--full">
+                <label for="mensaje">Mensaje <span class="req" aria-hidden="true">*</span></label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Cuéntanos qué guitarra buscas, qué maderas te interesan o qué necesita tu instrumento."></textarea>
+                <span class="field-hint">Cuanta más información nos des, mejor podremos ayudarte.</span>
+              </div>
+              <div class="hp-field" aria-hidden="true">
+                <label for="website">Dejar este campo vacío</label>
+                <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+              </div>
+            </div>
+            <button class="btn" type="submit" style="margin-top:28px">Enviar mensaje</button>
+            <p class="form-note">* Campos obligatorios. Al enviar se abrirá tu aplicación de correo con el mensaje preparado.</p>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Gómez del Carmen" width="520" loading="lazy">
+        <p>Guitarras flamencas y clásicas construidas a mano en La Torre de Esteban Hambrán, Toledo.</p>
+      </div>
+      <div class="footer-col"><h3>Navegación</h3><ul>
+        <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+        <li><a href="productos.html">Guitarras</a></li><li><a href="construccion.html">Construcción</a></li>
+        <li><a href="guitarristas.html">Guitarristas</a></li><li><a href="servicio.html">Servicios</a></li>
+        <li><a href="agradecimientos.html">Agradecimientos</a></li></ul></div>
+      <div class="footer-col"><h3>Contacto</h3><ul>
+        <li><a href="mailto:macose_to@yahoo.es">macose_to@yahoo.es</a></li>
+        <li><a href="tel:+34687407964">+34 687 407 964</a></li>
+        <li><a href="https://maps.google.com/maps?q=M%C3%A1rtires%2031%2C%20La%20Torre%20de%20Esteban%20Hambran" target="_blank" rel="noopener">Mártires 31, 45920 Toledo</a></li></ul></div>
+      <div class="footer-col"><h3>Síguenos</h3><div class="social-row">
+        <a href="https://instagram.com/guitarras_gomez_del_carmen" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://facebook.com/justo.arevalogomez" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://youtube.com/@GUITARRASGOMEZDELCARMEN-cl9do" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://api.whatsapp.com/send?phone=34687407964" target="_blank" rel="noopener">WhatsApp</a></div></div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="current-year">2026</span> Guitarras Gómez del Carmen. Todos los derechos reservados.</span>
+      <span>Hecho a mano en Toledo, España</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
